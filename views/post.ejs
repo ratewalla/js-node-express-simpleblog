@@ -4,7 +4,9 @@
 
 <h1><%= postTitle %></h1>
 <p><%= postBody %></p>
-
+<form action="/delete" method="post">
+<button class="btn btn-danger" type="submit" name="delete" value="<%= postId %>">Delete Post</button>
+</form>
 
 
 
